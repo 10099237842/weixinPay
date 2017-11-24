@@ -1,0 +1,31 @@
+//
+//  PrefixHeader.pch
+//  WXPayDemo
+//
+//  Created by 合一网络 on 2017/11/20.
+//  Copyright © 2017年 合一网络. All rights reserved.
+//
+
+
+
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+//AFN
+#import "AFNetworking.h"
+
+//支付  - 微信
+
+#import "WXApi.h"
+#import "WXApiObject.h"
+//appid
+#define  WX_APPID  @"000000000000000"
+//商户 id
+#define  WX_MCH_ID  @"000000000000000"
+//API 密钥
+#define  WX_PARTNER  @"000000000000000"
+//微信支付异步通知地址
+#define  WX_APP_NOTIFY_URL  @"000000000000000"
+
+#endif /* PrefixHeader_pch */

@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		403B17271FC26CB4001549CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 403B17261FC26CB4001549CB /* AppDelegate.m */; };
+		403B172D1FC26CB4001549CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 403B172B1FC26CB4001549CB /* Main.storyboard */; };
+		403B172F1FC26CB4001549CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 403B172E1FC26CB4001549CB /* Assets.xcassets */; };
+		403B17321FC26CB4001549CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 403B17301FC26CB4001549CB /* LaunchScreen.storyboard */; };
+		403B17351FC26CB4001549CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 403B17341FC26CB4001549CB /* main.m */; };
+		403B17461FC28AA8001549CB /* DataMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 403B173D1FC28AA8001549CB /* DataMD5.m */; };
+		403B17471FC28AA8001549CB /* GetIPAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 403B173F1FC28AA8001549CB /* GetIPAddress.m */; };
+		403B17491FC28AA8001549CB /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 403B17451FC28AA8001549CB /* XMLDictionary.m */; };
+		403B174C1FC28B13001549CB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 403B174B1FC28B06001549CB /* SystemConfiguration.framework */; };
+		403B174E1FC28B20001549CB /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 403B174D1FC28B20001549CB /* libc++.tbd */; };
+		403B17501FC28B2D001549CB /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 403B174F1FC28B2D001549CB /* libsqlite3.0.tbd */; };
+		403B17521FC28B35001549CB /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 403B17511FC28B35001549CB /* libz.tbd */; };
+		403B17541FC28B48001549CB /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 403B17531FC28B3E001549CB /* CoreTelephony.framework */; };
+		403B17631FC2BB44001549CB /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 403B175E1FC2BB44001549CB /* libWeChatSDK.a */; };
+		403B17641FC2BB44001549CB /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 403B175F1FC2BB44001549CB /* README.txt */; };
+		403B17661FC2BBEE001549CB /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 403B17651FC2BBDC001549CB /* MobileCoreServices.framework */; };
+		403B17721FC2D11D001549CB /* RootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 403B17701FC2D11D001549CB /* RootVC.m */; };
+		403B17731FC2D11D001549CB /* RootVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 403B17711FC2D11D001549CB /* RootVC.xib */; };
+		434F9D0E4FB65C0D085B894A /* libPods-WXPayDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23E54FA0ED419AA32BDC3ED3 /* libPods-WXPayDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		23E54FA0ED419AA32BDC3ED3 /* libPods-WXPayDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WXPayDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		403B17221FC26CB4001549CB /* WXPayDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WXPayDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		403B17251FC26CB4001549CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		403B17261FC26CB4001549CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		403B172C1FC26CB4001549CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		403B172E1FC26CB4001549CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		403B17311FC26CB4001549CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		403B17331FC26CB4001549CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		403B17341FC26CB4001549CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		403B173C1FC28AA8001549CB /* DataMD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataMD5.h; sourceTree = "<group>"; };
+		403B173D1FC28AA8001549CB /* DataMD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataMD5.m; sourceTree = "<group>"; };
+		403B173E1FC28AA8001549CB /* GetIPAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetIPAddress.h; sourceTree = "<group>"; };
+		403B173F1FC28AA8001549CB /* GetIPAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetIPAddress.m; sourceTree = "<group>"; };
+		403B17441FC28AA8001549CB /* XMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDictionary.h; sourceTree = "<group>"; };
+		403B17451FC28AA8001549CB /* XMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDictionary.m; sourceTree = "<group>"; };
+		403B174B1FC28B06001549CB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		403B174D1FC28B20001549CB /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		403B174F1FC28B2D001549CB /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		403B17511FC28B35001549CB /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		403B17531FC28B3E001549CB /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		403B17551FC28C46001549CB /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		403B17561FC2ACA2001549CB /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		403B175E1FC2BB44001549CB /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		403B175F1FC2BB44001549CB /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		403B17601FC2BB44001549CB /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		403B17611FC2BB44001549CB /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		403B17621FC2BB44001549CB /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		403B17651FC2BBDC001549CB /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		403B176F1FC2D11D001549CB /* RootVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootVC.h; sourceTree = "<group>"; };
+		403B17701FC2D11D001549CB /* RootVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootVC.m; sourceTree = "<group>"; };
+		403B17711FC2D11D001549CB /* RootVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootVC.xib; sourceTree = "<group>"; };
+		8AB81344FDFFFD38F2DB8CE8 /* Pods-WXPayDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXPayDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WXPayDemo/Pods-WXPayDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FB6866005D65B474E40AC69B /* Pods-WXPayDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXPayDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WXPayDemo/Pods-WXPayDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		403B171F1FC26CB4001549CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403B17661FC2BBEE001549CB /* MobileCoreServices.framework in Frameworks */,
+				403B17521FC28B35001549CB /* libz.tbd in Frameworks */,
+				403B17631FC2BB44001549CB /* libWeChatSDK.a in Frameworks */,
+				403B17501FC28B2D001549CB /* libsqlite3.0.tbd in Frameworks */,
+				403B174C1FC28B13001549CB /* SystemConfiguration.framework in Frameworks */,
+				403B174E1FC28B20001549CB /* libc++.tbd in Frameworks */,
+				403B17541FC28B48001549CB /* CoreTelephony.framework in Frameworks */,
+				434F9D0E4FB65C0D085B894A /* libPods-WXPayDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		403B17191FC26CB4001549CB = {
+			isa = PBXGroup;
+			children = (
+				403B17241FC26CB4001549CB /* WXPayDemo */,
+				403B17231FC26CB4001549CB /* Products */,
+				403B174A1FC28B06001549CB /* Frameworks */,
+				43066D4EA656726803AA998F /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		403B17231FC26CB4001549CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				403B17221FC26CB4001549CB /* WXPayDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		403B17241FC26CB4001549CB /* WXPayDemo */ = {
+			isa = PBXGroup;
+			children = (
+				403B17251FC26CB4001549CB /* AppDelegate.h */,
+				403B17261FC26CB4001549CB /* AppDelegate.m */,
+				403B17551FC28C46001549CB /* PrefixHeader.pch */,
+				403B176F1FC2D11D001549CB /* RootVC.h */,
+				403B17701FC2D11D001549CB /* RootVC.m */,
+				403B17711FC2D11D001549CB /* RootVC.xib */,
+				403B172B1FC26CB4001549CB /* Main.storyboard */,
+				403B173B1FC28AA8001549CB /* WXPay */,
+				403B172E1FC26CB4001549CB /* Assets.xcassets */,
+				403B17301FC26CB4001549CB /* LaunchScreen.storyboard */,
+				403B17331FC26CB4001549CB /* Info.plist */,
+				403B17341FC26CB4001549CB /* main.m */,
+			);
+			path = WXPayDemo;
+			sourceTree = "<group>";
+		};
+		403B173B1FC28AA8001549CB /* WXPay */ = {
+			isa = PBXGroup;
+			children = (
+				403B175D1FC2BB44001549CB /* OpenSDK1.8.1 */,
+				403B173C1FC28AA8001549CB /* DataMD5.h */,
+				403B173D1FC28AA8001549CB /* DataMD5.m */,
+				403B173E1FC28AA8001549CB /* GetIPAddress.h */,
+				403B173F1FC28AA8001549CB /* GetIPAddress.m */,
+				403B17441FC28AA8001549CB /* XMLDictionary.h */,
+				403B17451FC28AA8001549CB /* XMLDictionary.m */,
+			);
+			path = WXPay;
+			sourceTree = "<group>";
+		};
+		403B174A1FC28B06001549CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				403B17651FC2BBDC001549CB /* MobileCoreServices.framework */,
+				403B17561FC2ACA2001549CB /* AssetsLibrary.framework */,
+				403B17531FC28B3E001549CB /* CoreTelephony.framework */,
+				403B17511FC28B35001549CB /* libz.tbd */,
+				403B174F1FC28B2D001549CB /* libsqlite3.0.tbd */,
+				403B174D1FC28B20001549CB /* libc++.tbd */,
+				403B174B1FC28B06001549CB /* SystemConfiguration.framework */,
+				23E54FA0ED419AA32BDC3ED3 /* libPods-WXPayDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		403B175D1FC2BB44001549CB /* OpenSDK1.8.1 */ = {
+			isa = PBXGroup;
+			children = (
+				403B175E1FC2BB44001549CB /* libWeChatSDK.a */,
+				403B175F1FC2BB44001549CB /* README.txt */,
+				403B17601FC2BB44001549CB /* WechatAuthSDK.h */,
+				403B17611FC2BB44001549CB /* WXApi.h */,
+				403B17621FC2BB44001549CB /* WXApiObject.h */,
+			);
+			path = OpenSDK1.8.1;
+			sourceTree = "<group>";
+		};
+		43066D4EA656726803AA998F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8AB81344FDFFFD38F2DB8CE8 /* Pods-WXPayDemo.debug.xcconfig */,
+				FB6866005D65B474E40AC69B /* Pods-WXPayDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		403B17211FC26CB4001549CB /* WXPayDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 403B17381FC26CB4001549CB /* Build configuration list for PBXNativeTarget "WXPayDemo" */;
+			buildPhases = (
+				C8185F73E252C76E1B0496E2 /* [CP] Check Pods Manifest.lock */,
+				403B171E1FC26CB4001549CB /* Sources */,
+				403B171F1FC26CB4001549CB /* Frameworks */,
+				403B17201FC26CB4001549CB /* Resources */,
+				58E05A435F406FAA21C722FF /* [CP] Embed Pods Frameworks */,
+				027A0DF54C46FFEF058BD049 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WXPayDemo;
+			productName = WXPayDemo;
+			productReference = 403B17221FC26CB4001549CB /* WXPayDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		403B171A1FC26CB4001549CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "合一网络";
+				TargetAttributes = {
+					403B17211FC26CB4001549CB = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 403B171D1FC26CB4001549CB /* Build configuration list for PBXProject "WXPayDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 403B17191FC26CB4001549CB;
+			productRefGroup = 403B17231FC26CB4001549CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				403B17211FC26CB4001549CB /* WXPayDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		403B17201FC26CB4001549CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403B17321FC26CB4001549CB /* LaunchScreen.storyboard in Resources */,
+				403B172F1FC26CB4001549CB /* Assets.xcassets in Resources */,
+				403B17641FC2BB44001549CB /* README.txt in Resources */,
+				403B172D1FC26CB4001549CB /* Main.storyboard in Resources */,
+				403B17731FC2D11D001549CB /* RootVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		027A0DF54C46FFEF058BD049 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WXPayDemo/Pods-WXPayDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58E05A435F406FAA21C722FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WXPayDemo/Pods-WXPayDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8185F73E252C76E1B0496E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		403B171E1FC26CB4001549CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403B17721FC2D11D001549CB /* RootVC.m in Sources */,
+				403B17461FC28AA8001549CB /* DataMD5.m in Sources */,
+				403B17351FC26CB4001549CB /* main.m in Sources */,
+				403B17471FC28AA8001549CB /* GetIPAddress.m in Sources */,
+				403B17271FC26CB4001549CB /* AppDelegate.m in Sources */,
+				403B17491FC28AA8001549CB /* XMLDictionary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		403B172B1FC26CB4001549CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				403B172C1FC26CB4001549CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		403B17301FC26CB4001549CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				403B17311FC26CB4001549CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		403B17361FC26CB4001549CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		403B17371FC26CB4001549CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		403B17391FC26CB4001549CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AB81344FDFFFD38F2DB8CE8 /* Pods-WXPayDemo.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					arm64,
+					armv7,
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94GC9MN77H;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = /Users/heyiwangluo/Desktop/WXPayDemo/WXPayDemo/PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Pods/AFNetworking\"";
+				INFOPLIST_FILE = WXPayDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Pods/AFNetworking\"",
+					"$(PROJECT_DIR)/WXPayDemo/WXPay/OpenSDK1.8.1",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--.WXPayDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Debug;
+		};
+		403B173A1FC26CB4001549CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB6866005D65B474E40AC69B /* Pods-WXPayDemo.release.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					arm64,
+					armv7,
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94GC9MN77H;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = /Users/heyiwangluo/Desktop/WXPayDemo/WXPayDemo/PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Pods/AFNetworking\"";
+				INFOPLIST_FILE = WXPayDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Pods/AFNetworking\"",
+					"$(PROJECT_DIR)/WXPayDemo/WXPay/OpenSDK1.8.1",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--.WXPayDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		403B171D1FC26CB4001549CB /* Build configuration list for PBXProject "WXPayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				403B17361FC26CB4001549CB /* Debug */,
+				403B17371FC26CB4001549CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		403B17381FC26CB4001549CB /* Build configuration list for PBXNativeTarget "WXPayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				403B17391FC26CB4001549CB /* Debug */,
+				403B173A1FC26CB4001549CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 403B171A1FC26CB4001549CB /* Project object */;
+}
